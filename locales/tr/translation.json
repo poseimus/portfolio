@@ -1,0 +1,15 @@
+{
+    "name": "Ahmet Emir Akyüz",
+    "home": "Anasayfa",
+    "projects": "Projeler",
+    "contact": "İletişim",
+    "hi": "Merhaba.",
+    "me": "Ben Ahmet Emir,",
+    "front-end": "Tanıtım siteleri, e-ticaret platformları, alış/varış sayfaları gibi çeşitli front-end projeleri geliştiriyorum.",
+    "intermarktInfo1": "Almanya'nın önde gelen süpermarket zincirlerinden birinin dijital dünyaya taşınmış hali! Bu projede müşteriler, rahatlıkla online alışveriş yapabilir, en sevdikleri ürünleri hızlıca sepetlerine ekleyebilir ve ödeme işlemlerini sorunsuz bir şekilde gerçekleştirebilirler. Modern teknolojiler olan React JS ve TypeScript kullanılarak geliştirilen bu platform, kullanıcılarına kullanım kolaylığı ve güvenilir bir alışveriş deneyimi sunuyor.",
+    "intermarktInfo2": " Almanya merkezli süpermarketimizin yöneticileri için özel olarak tasarlanmış bir yönetim panelidir. Bu panel, ürünleri, kampanyaları ve kullanıcıları kolayca yönetmeyi sağlar. Ayrıca, gelen siparişleri anlık olarak görüntüleyip düzenleme imkanı sunar. İşte, süpermarket yöneticilerinin işlerini kolaylaştırmak için özel olarak tasarlanmış bir çözüm!",
+    "kolayyolInfo": "Türkiye'nin lojistik dünyasına öncülük eden Kolay Yol, gelişmiş bir lojistik yönetim uygulamasına sahiptir. Projemiz, lojistik firmalarının karmaşık süreçlerini basitleştirir ve verimli bir şekilde yönetmelerini sağlar. Kolay Yol'un tanıtım websitesi, projenin sunduğu çeşitli özellikleri ve avantajları ziyaretçilere detaylı bir şekilde sunar.",
+    "cactus": "Cactus Yazılım ve Bilişim Hizmetleri",
+    "cactusInfo": "Cactus, yazılım ve bilişim hizmetleri sunan bir firma olarak, sektörde fark yaratmayı hedefler. Eski çalışanı olarak, bu şirketin projelerine katkıda bulundum ve yukarıda bahsedilen projelerin geliştirilmesinde rol aldım. Cactus'un websitesi, firma hakkında daha fazla bilgi almak isteyen ziyaretçilere şirketin vizyonunu ve misyonunu anlatır.",
+    "tech": "Teknoloji"
+}

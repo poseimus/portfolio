@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body * {
+    z-index: 2;
+}
+/**bg #343541*/
+
+:root {
+    --dashed-border-color: black;
+}
+
+body.dark {
+    --dashed-border-color: white;
+}
+
+.overlay-bg {
+    transition: .3s;
+    z-index: 1;
+    object-fit: contain;
+    object-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    mix-blend-mode: hard-light;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/010/332/153/non_2x/code-flat-color-outline-icon-free-png.png');
+}
+
+.dashed-spinner {
+    width: 6rem;
+    height: 6rem;
+    position: relative;
+}
+
+.dashed-spinner span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dashed-spinner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px dashed var(--dashed-border-color);
+    border-radius: 50%;
+    animation: spin 15s linear infinite;
+}
+
+.tooltip {
+    z-index: 20 !important;
+    position: absolute;
+    left: 50%;
+    width: auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.tooltip h4 {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.dashed-spinner:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+    transition: all .3s ease-in;
+}
+
+.owl-dot>span {
+    background-color: rgb(100 116 139) !important;
+    transition: all .3s;
+}
+
+.owl-dot.active>span {
+    background-color: rgb(76 5 25) !important;
+    transition: all .3s;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (min-width:768px) {
+    .bar {
+        display: none;
+    }
+
+    .cursor-pointer {
+        display: none;
+    }
+
+    #lg-header {
+        display: flex;
+    }
+
+    #mb-header {
+        display: none;
+    }
+
+}
+
+
+
+@media (max-width: 767px) {
+    .lg\\:hidden {
+        display: none;
+    }
+
+    .bar {
+        width: 30px;
+        height: 3px;
+        background-color: #333;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+
+    .cursor-pointer {
+        cursor: pointer;
+    }
+
+    #lg-header {
+        display: none;
+    }
+
+    #mb-header {
+        display: flex;
+    }
+
+}
