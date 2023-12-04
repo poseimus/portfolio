@@ -27,12 +27,7 @@ const Header = () => {
         <section className="text-black bg-white dark:text-white dark:bg-black sm:border-1">
             <div className="container mx-auto flex flex-row gap-3 py-3 items-center justify-between">
                 <Link href={'/'}>
-                    <img
-                        height={60}
-                        width={60}
-                        src="https://media.istockphoto.com/id/1495088043/vector/user-profile-icon-avatar-or-person-icon-profile-picture-portrait-symbol-default-portrait.jpg?s=612x612&w=0&k=20&c=dhV2p1JwmloBTOaGAtaA3AW1KSnjsdMt7-U_3EZElZ0="
-                        alt="Logo"
-                    />
+                  {t('name')}
                 </Link>
                 <div className="flex flex-row items-center gap-3">
                     <div id="lg-header" className="flex flex-row gap-5 items-center justify-between">

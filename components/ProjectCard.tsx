@@ -11,8 +11,10 @@ const ProjectCard: React.FC<SingleProjectProps> = ({ project, index }) => {
     const { t } = useTranslation();
     return (
         <>
-            <div className="aspect-[5/4] h-[360px] mx-auto bg-neutral-500 dark:bg-neutral-200 rounded-md overflow-hidden shadow-md hover:shadow-lg transition-transform transform hover:-translate-y-1 hover:scale-105 mb-4 relative">
-                <img className="absolute inset-0 w-full h-full object-cover object-center" src={project.imageSrc} alt={project.title} />
+            <div
+                className="aspect-[7/4] h-[360px] mx-auto bg-neutral-500 dark:bg-neutral-200 rounded-md overflow-hidden shadow-md hover:shadow-lg transition-transform transform hover:-translate-y-1 hover:scale-105 mb-4 relative"
+                style={{ backgroundRepeat: "no-repeat", backgroundImage: `url(${project.imageSrc})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+            >
                 <div className="absolute top-0 bottom-0 left-0 right-0 flex items-center justify-center">
                     <div className="bg-black opacity-50 h-full w-full"></div>
                 </div>

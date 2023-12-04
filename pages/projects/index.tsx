@@ -1,13 +1,15 @@
 import ProjectCard from "@/components/ProjectCard";
 import { Project } from "@/data/projectData";
 import { useTranslation } from "react-i18next";
-
+import Cactus from './../../images/Cactus.png'
+import Kolayyol from './../../images/Kolayyol.png'
+import Intermarkt from './../../images/Intermarkt.png'
 export default function Index() {
 
     const { t } = useTranslation();
     const projectData: Project[] = [
         {
-            imageSrc: "https://static.swiftbuilder.co.uk/img/homepage-screen.png",
+            imageSrc: Intermarkt.src,
             title: "Intermarkt",
             description: t('intermarktInfo1'),
             link: "https://intermarkt.com/",
@@ -21,14 +23,14 @@ export default function Index() {
             tech: "TypeScript - JavaScript - React Redux"
         },
         {
-            imageSrc: "https://colorlib.com/wp-content/uploads/sites/2/library-website-design-1.jpg",
+            imageSrc: Kolayyol.src,
             title: "Kolay Yol",
             description: t('kolayyolInfo'),
             link: "https://kolayyol.net/",
             tech: "TypeScript"
         },
         {
-            imageSrc: "https://colorlib.com/wp-content/uploads/sites/2/library-website-design-1.jpg",
+            imageSrc: Cactus.src,
             title: t('cactus'),
             description: t('cactusInfo'),
             link: "https://www.cactus.com.tr/",
