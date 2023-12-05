@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return <>
     <React.StrictMode>
       <Suspense fallback={<div>Loading...</div>}>
-        <section className="min-h-screen bg-neutral-300 dark:bg-[#343541] relative">
+        <section className="min-h-screen bg-neutral-200 dark:bg-[#343541] relative">
           <div className='mx-auto text-black dark:text-white'>
             <Header />
             <Component {...pageProps} />

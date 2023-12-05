@@ -47,7 +47,7 @@ export default function Index() {
     return <>
         <section className="container mx-auto py-10 w-full">
             <div className="my-auto flex flex-col justify-center items-center mb-10">
-                <h6 className="font-semibold text-3xl">{t('carrier')}</h6>
+                <h6 className="font-semibold text-3xl">{t('projects')}</h6>
             </div>
             <div className="flex flex-wrap justify-between flex-row gap-3">
                 {

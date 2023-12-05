@@ -22,12 +22,12 @@ const CarrierCard: React.FC<ICarrier> = ({ carrier }) => {
        </>
     };
     return <>
-        <div className="flex flex-col gap-1 border-2 p-4 border-black dark:border-white w-[90%] sm:w-[68%]">
+        <div className="flex flex-col gap-1 text-white bg-zinc-700 dark:bg-transparent bg-opacity-60 border-2 p-4 border-zinc-600 dark:border-white w-[90%] sm:w-[60%]">
             <h3 className="text-xl font-bold mb-4">{carrier.role}</h3>
             <h3 className="text-xl font-bold flex items-center flex-wrap">{carrier.name} </h3>
-            <span className="text-sm text-gray-700 dark:text-slate-200">{carrier.time}</span>
-            <span className="text-sm text-gray-700 dark:text-slate-200 mb-3">{carrier.location}</span>
-            <span className="text-sm text-gray-700 dark:text-slate-200">{translateToParagraphs(carrier.description)}</span>
+            <span className="text-sm text-neutral-100">{carrier.time}</span>
+            <span className="text-sm text-neutral-100 mb-3">{carrier.location}</span>
+            <span className="text-sm text-neutral-100">{translateToParagraphs(carrier.description)}</span>
         </div>
 
     </>

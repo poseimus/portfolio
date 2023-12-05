@@ -19,8 +19,8 @@ const Header = () => {
     const { t, i18n } = useTranslation();
     return <>
         <section className="text-black font-semibold text-lg bg-white dark:text-white dark:bg-black sm:border-1">
-            <div className="container mx-auto flex flex-row gap-3 py-3 items-center justify-between">
-                <Link href={'/'}>
+            <div className="container mx-auto flex flex-row gap-3 py-3 items-center sm:justify-between">
+                <Link className="flex-1" href={'/'}>
                     {t('name')}
                 </Link>
                 <div className="flex flex-row items-center gap-3">
