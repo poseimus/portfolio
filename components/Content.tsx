@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import Link from "next/link";
-import { FaArrowAltCircleRight, FaArrowCircleRight, FaMeetup, FaTasks } from "react-icons/fa";
+import { FaArrowAltCircleRight, FaTasks } from "react-icons/fa";
 import featureData from "@/data/featureData";
 import FeatureSlider from "./FeatureSlider";
 

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
+import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 interface SocialType {
   icon: JSX.Element;
@@ -9,17 +9,21 @@ interface SocialType {
 export default function Social() {
   const socialData: SocialType[] = [
     {
-      icon: <FaInstagram className={"fill-dark dark:fill-white"} size={32} />,
+      icon: <FaInstagram className={"fill-dark dark:fill-white"} size={24} />,
       link: 'https://www.instagram.com/poseimus',
     },
     {
-      icon: <FaLinkedin className={"fill-dark dark:fill-white"} size={32} />,
+      icon: <FaLinkedin className={"fill-dark dark:fill-white"} size={24} />,
       link: 'https://www.linkedin.com/in/poseimus',
+    },
+    {
+      icon: <FaGithub className={"fill-dark dark:fill-white"} size={24} />,
+      link: 'https://github.com/poseimus',
     },
   ];
 
   return (
-    <div className="absolute md:fixed top-32 sm:top-1/2 right-5 transform -translate-y-1/2 flex flex-row sm:flex-col gap-5 border border-black dark:border-white py-2 px-1.5">
+    <div className="absolute md:fixed top-32 sm:top-1/2 right-5 transform -translate-y-1/2 flex flex-row sm:flex-col gap-4 sm:gap-5 border border-black dark:border-white py-2 px-1.5">
       {socialData.map((social, index) => (
         <Link key={index} href={social.link} target="_blank">
           {social.icon}

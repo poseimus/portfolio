@@ -2,13 +2,13 @@
     "name": "Ahmet Emir Akyuz",
     "home": "Home",
     "projects": "Projects",
-    "about": "About Me",
+    "about": "About",
     "contact": "Contact",
     "hi": "Hi.",
     "me": "I'm Ahmet Emir,",
     "front-end": "I specialize in creating various front-end projects, including promotional websites, e-commerce platforms, landing pages, and more.",
     "intermarktInfo1": "A digital transformation of one of Germany's leading supermarket chains! In this project, customers can comfortably shop online, quickly add their favorite products to their carts, and seamlessly complete payment transactions. Developed using modern technologies such as React JS and TypeScript, this platform offers users ease of use and a reliable shopping experience.",
-    "intermarktInfo2": "A specially designed management panel for the administrators of our Germany-based supermarket. This panel makes it easy to manage products, campaigns, and users. It also provides the ability to view and edit incoming orders in real-time. Here's a solution designed to streamline the work of supermarket administrators!",
+    "intermarktInfo2": "A specially designed management panel for the administrators of a Germany-based supermarket. This panel makes it easy to manage products, campaigns, and users. It also provides the ability to view and edit incoming orders in real-time. Here's a solution designed to streamline the work of supermarket administrators!",
     "kolayyolInfo": "Leading the way in Turkey's logistics sector, Kolay Yol has an advanced logistics management application. Our project simplifies and efficiently manages the complex processes of logistics companies. The promotional website for Kolay Yol presents various features and advantages of the project in detail to visitors.",
     "cactus": "Cactus Software and Information Services",
     "cactusInfo": "As a software and information services provider, Cactus aims to make a difference in the industry. As a former employee, I contributed to the projects of this company and was involved in the development of the projects mentioned above. The website of Cactus provides information about the company's vision and mission for visitors seeking more information.",
@@ -16,9 +16,10 @@
     "parlakids1": "As a Social Media Manager at ParlaKids, I played a key role in enhancing the brand's online presence. My responsibilities included crafting and executing advertising strategies on Instagram and the company website. I specialized in creating engaging content and overseeing ad campaigns to maximize brand visibility. Additionally, I actively contributed to SEO efforts, optimizing online content to improve search engine rankings. By closely monitoring analytics, I implemented data-driven decisions to further enhance the effectiveness of our online marketing initiatives.\n Key Achievements:\n - Successfully managed and executed impactful advertising campaigns on Instagram and the company website.\n - Implemented SEO strategies that led to improved search engine rankings.\n - Contributed to the overall growth and visibility of the ParlaKids brand on social media platforms.",
     "cactus1": "As a Front-End Developer at Cactus Software and Information Services, I developed modular and scalable front-end interfaces using React and Redux.\n I implemented Restful API integrations and effectively worked with technologies such as TypeScript, JavaScript, HTML, and CSS.",
     "carrier": "My Carrier",
-    "socialmedia":"Social Media Manager",
+    "socialmedia": "Social Media Manager",
     "frontend": "Front End Developer",
     "izmir": "Turkey / Izmir",
     "duzce": "Turkey / Duzce",
-    "hire": "Hire Me"
+    "hire": "Hire Me",
+    "aboutme1": "Hello, I'm Ahmet Emir Akyüz. I live in Düzce, Turkey, and was born on May 28, 1998. My coding journey began in middle school (2010) when I started developing panels for private servers of a game. Later, I decided to create my own game, learned SQL, and set up my first server via Hamachi, marking the beginning of my coding adventure. In 2021, I decided to work at Cactus Software and Information Services in Izmir for an internship.\nLearning the job was not challenging; with my ability to learn and progress quickly, I received a job offer. Opting to accept the offer to gain experience in the field of coding, I began my journey in the business world.\nDuring my 1 year and 3 months at Cactus, I made significant progress in front-end development, mastering various technologies like React JS, TypeScript, Redux, HTML, CSS, SCSS, and Restful API. My current goal is to gain more experience abroad. This brief summary in my portfolio provides insight into my software development journey. I am an open and motivated developer, always eager to learn and grow with each passing day."
 }

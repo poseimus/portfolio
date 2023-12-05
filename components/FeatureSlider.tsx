@@ -1,7 +1,5 @@
 import MyOwl from '@/helpers/helper.owl';
 import SingleFeature from './SingleFeature';
-import dynamic from 'next/dynamic';
-const OwlCarousel = dynamic(() => import('react-owl-carousel'), { ssr: false });
 
 const FeatureSlider = ({ featureData }: any) => {
 

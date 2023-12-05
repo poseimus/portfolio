@@ -10,7 +10,8 @@ const Header = () => {
     const router = useRouter();
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     useEffect(() => {
-        setIsMenuOpen(false);
+        if (isMenuOpen)
+            setIsMenuOpen(false);
     }, [router])
 
     const handleMenu = () => {

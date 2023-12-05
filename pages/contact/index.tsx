@@ -1,6 +1,5 @@
 import Link from "next/link";
-import { useTranslation } from "react-i18next"
-import { FaPhone } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 import { TbBrandWhatsapp, TbMail, TbPhone } from "react-icons/tb";
 
 export default function Index() {
@@ -31,8 +30,6 @@ export default function Index() {
                     </Link>
                 </div>
             </div>
-
-
-        </section >
+        </section>
     </>
 }
