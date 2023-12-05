@@ -19,7 +19,7 @@ export default function Index() {
                 <div className="flex flex-row gap-1 sm:gap-3 items-center ">
                     <TbMail size={24}/>
                     <span>Email : </span>
-                    <Link href={'mailto:emirakyuz81@gmail.com'}>
+                    <Link className="underline" href={'mailto:emirakyuz81@gmail.com'}>
                         emirakyuz81@gmail.com
                     </Link>
                 </div>

@@ -22,13 +22,13 @@ const Content = () => {
                 </p>
                 <div className="flex flex-row gap-x-10">
                     <Link href="/projects" className="mt-3 sm:mt-5 text-xl sm:text-2xl flex flex-row items-center">
-                        <FaTasks className="mr-2 sm:mr-3 mt-1" size={20} />
+                        <FaTasks className="mr-2 sm:mr-3" size={20} />
                         <span>
                             {t('projects')}
                         </span>
                     </Link>
                     <Link href="/contact" className="mt-3 sm:mt-5 text-xl sm:text-2xl flex flex-row items-center">
-                        <FaArrowAltCircleRight className="mr-2 sm:mr-3 mt-1" size={20} />
+                        <FaArrowAltCircleRight className="mr-2 sm:mr-3" size={20} />
                         <span className="underline">
                             {t('hire')}
                         </span>
