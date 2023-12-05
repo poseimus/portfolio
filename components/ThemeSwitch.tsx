@@ -1,19 +1,23 @@
+import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
 const ThemeSwitch = () => {
-    const [theme, setTheme] = useState('dark');
+    const router = useRouter();
+    const [theme, setTheme] = useState('light');
 
     useEffect(() => {
-        var currentTheme = localStorage.getItem('theme');
-        if (currentTheme === 'dark') {
-            setTheme('dark')
-            localStorage.setItem('theme', 'dark')
+        if (router.isReady) {
+            var currentTheme = localStorage.getItem('theme');
+            if (currentTheme === 'dark') {
+                setTheme('dark')
+                localStorage.setItem('theme', 'dark')
+            }
+            else {
+                setTheme('light')
+                localStorage.setItem('theme', 'light')
+            }
         }
-        else {
-            setTheme('light')
-            localStorage.setItem('theme', 'light')
-        }
-    }, [])
+    }, [router])
 
     useEffect(() => {
         if (theme === 'dark') {
