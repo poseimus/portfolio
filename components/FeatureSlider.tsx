@@ -16,7 +16,7 @@ const FeatureSlider = ({ featureData }: any) => {
             {
                 featureData.map((feature: any, index: any) => (
                     <div key={index}>
-                        <SingleFeature feature={feature} />
+                        <SingleFeature feature={feature} key={index} />
                     </div>
                 ))
             }
