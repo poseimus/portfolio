@@ -1,11 +1,19 @@
 import React, { useState } from 'react';
-import { Project } from '@/data/projectData';
 import Link from 'next/link';
 import { FaBan, FaSearch } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
 
+
+export interface IProject {
+    imageSrc: any;
+    title: string;
+    description: string;
+    link: string;
+    tech: string;
+}
+
 interface SingleProjectProps {
-    project: Project;
+    project: IProject;
     index: number;
 }
 
@@ -21,7 +29,7 @@ const ProjectCard: React.FC<SingleProjectProps> = ({ project, index }) => {
     return (
         <>
             <div
-                className="aspect-[7/4] h-[360px] mx-auto bg-neutral-500 dark:bg-neutral-200 rounded-md overflow-hidden shadow-md hover:shadow-lg transition-transform transform hover:-translate-y-1 hover:scale-105 mb-4 relative"
+                className="aspect-[7/4] h-[280px] md:h-[360px] mx-auto bg-neutral-500 dark:bg-neutral-200 rounded-md overflow-hidden shadow-md hover:shadow-lg transition-transform transform hover:-translate-y-1 hover:scale-105 mb-4 relative"
                 style={{ backgroundRepeat: 'no-repeat', backgroundImage: `url(${project.imageSrc})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
             >
                 <div className="absolute top-0 bottom-0 left-0 right-0 flex items-center justify-center">
@@ -35,23 +43,23 @@ const ProjectCard: React.FC<SingleProjectProps> = ({ project, index }) => {
                         <div className="flex flex-row justify-between items-center gap-3">
                             {
                                 project.link != 'null' ? <>
-                                    <Link target="_blank" className="text-xl font-bold underline text-neutral-200 dark:text-neutral-300 font-semibold" href={project.link}>
+                                    <Link target="_blank" className="text-md sm:text-xl font-bold underline text-neutral-200 dark:text-neutral-300 font-semibold" href={project.link}>
                                         {project.title}
                                     </Link>
                                     <button type="button" title='Preview' className="flex flex-row items-center gap-2" onClick={handleToggleModal}>
                                         <FaSearch size={20} />
                                     </button>
                                 </> : <>
-                                    <h3 className='text-xl font-bold text-neutral-200 dark:text-neutral-300 font-semibold'>{project.title}</h3>
+                                    <h3 className='text-md sm:text-xl font-bold text-neutral-200 dark:text-neutral-300 font-semibold'>{project.title}</h3>
                                     <FaBan size={20} />
                                 </>
                             }
                         </div>
-                        <p className="mt-5 text-md text-neutral-300">{project.description}</p>
+                        <p className="mt-5 text-sm sm:text-md  text-neutral-300">{project.description}</p>
                     </div>
                     <div className="flex flex-row gap-3">
-                        <span className="text-neutral-400">{t('tech')}:</span>
-                        <span>{project.tech}</span>
+                        <span className="text-neutral-400 text-sm sm:text-md">{t('tech')}:</span>
+                        <span className='text-sm sm:text-md'>{project.tech}</span>
                     </div>
                 </div>
             </div>

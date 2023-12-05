@@ -10,7 +10,7 @@ const Content = () => {
 
     return <>
         <section className="container mx-auto py-10 w-full sm:h-200">
-            <div className="flex flex-col gap-3 z-10 w-full sm:w-2/4">
+            <div className="flex flex-col gap-3 z-10 w-full w-[90%] md:w-[60%]">
                 <h1 className="text-4xl sm:text-6xl font-bold">
                     {t('hi')}
                 </h1>

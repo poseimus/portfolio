@@ -25,7 +25,7 @@ export default function Index() {
         <section className="container mx-auto py-10 w-full">
             <div className="my-auto flex flex-col gap-5 justify-center items-center">
                 <h6 className="font-semibold text-3xl">{t('carrier')}</h6>
-                <div className="flex flex-col flex-wrap gap-3">
+                <div className="flex flex-col flex-wrap justify-center items-center gap-3">
                     {
                         carrierData.map((carrier: ICarrierProps, index: any) => {
                             return <CarrierCard carrier={carrier} key={index} />

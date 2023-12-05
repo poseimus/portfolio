@@ -1,13 +1,13 @@
-import ProjectCard from "@/components/ProjectCard";
-import { Project } from "@/data/projectData";
+import ProjectCard, { IProject } from "@/components/ProjectCard";
 import { useTranslation } from "react-i18next";
 import Cactus from './../../images/Cactus.png'
 import Kolayyol from './../../images/Kolayyol.png'
 import Intermarkt from './../../images/Intermarkt.png'
+import Tourforturkey from './../../images/Tourforturkey.png'
 export default function Index() {
 
     const { t } = useTranslation();
-    const projectData: Project[] = [
+    const projectData: IProject[] = [
         {
             imageSrc: Intermarkt.src,
             title: "Intermarkt",
@@ -29,6 +29,13 @@ export default function Index() {
             link: "https://kolayyol.net/",
             tech: "TypeScript"
         },
+        // {
+        //     imageSrc: Tourforturkey.src,
+        //     title: "TourForTurkey",
+        //     description: t('cactusInfo'),
+        //     link: "https://www.tourforturkey.com/",
+        //     tech: "TypeScript - JavaScript - React Redux"
+        // },
         {
             imageSrc: Cactus.src,
             title: t('cactus'),
@@ -39,9 +46,12 @@ export default function Index() {
     ]
     return <>
         <section className="container mx-auto py-10 w-full">
+            <div className="my-auto flex flex-col justify-center items-center mb-10">
+                <h6 className="font-semibold text-3xl">{t('carrier')}</h6>
+            </div>
             <div className="flex flex-wrap justify-between flex-row gap-3">
                 {
-                    projectData.map((project: Project, index: any) => {
+                    projectData.map((project: IProject, index: any) => {
                         return <>
                             <ProjectCard project={project} key={index} index={index} />
                         </>

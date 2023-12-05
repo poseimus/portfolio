@@ -8,21 +8,15 @@ import { useRouter } from "next/router";
 const Header = () => {
 
     const router = useRouter();
-    const [currentTheme, setCurrentTheme] = useState('');
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
     useEffect(() => {
         setIsMenuOpen(false);
-        Check();
-        if (currentTheme != '') {
-            setIsMenuOpen(false);
-        }
-    }, [router, currentTheme])
+    }, [router])
 
-    function Check() {
-        var theme = localStorage.getItem('theme');
-        setCurrentTheme(theme ?? "");
+    const handleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
     }
     const { t, i18n } = useTranslation();
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
     return <>
         <section className="text-black font-semibold text-lg bg-white dark:text-white dark:bg-black sm:border-1">
             <div className="container mx-auto flex flex-row gap-3 py-3 items-center justify-between">
@@ -30,7 +24,7 @@ const Header = () => {
                     {t('name')}
                 </Link>
                 <div className="flex flex-row items-center gap-3">
-                    <div id="lg-header" className="flex flex-row gap-5 items-center justify-between">
+                    <div id="lg-header" className="flex flex-row text-sm lg:text-lg gap-5 items-center justify-between">
                         <Link href={'/'}>{t('home')}</Link>
                         <Link href={'/projects'}>{t('projects')}</Link>
                         <Link href={'/about'}>{t('about')}</Link>
@@ -43,7 +37,7 @@ const Header = () => {
                 <div
                     id="mb-header"
                     className="cursor-pointer items-center gap-3 lg:hidden"
-                    onClick={() => setIsMenuOpen(!isMenuOpen)}
+                    onClick={handleMenu}
                 >
 
                     <div className="flex flex-col">
