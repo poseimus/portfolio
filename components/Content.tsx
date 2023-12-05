@@ -30,7 +30,7 @@ const Content = () => {
                     <Link href="/contact" className="mt-3 sm:mt-5 text-xl sm:text-2xl flex flex-row items-center">
                         <FaArrowAltCircleRight className="mr-2 sm:mr-3 mt-1" size={20} />
                         <span className="underline">
-                            {t('Hire Me')}
+                            {t('hire')}
                         </span>
                     </Link>
                 </div>
