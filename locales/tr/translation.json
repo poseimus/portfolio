@@ -2,6 +2,7 @@
     "name": "Ahmet Emir Akyüz",
     "home": "Anasayfa",
     "projects": "Projeler",
+    "about": "Hakkımda",
     "contact": "İletişim",
     "hi": "Merhaba.",
     "me": "Ben Ahmet Emir,",
@@ -11,5 +12,12 @@
     "kolayyolInfo": "Türkiye'nin lojistik dünyasına öncülük eden Kolay Yol, gelişmiş bir lojistik yönetim uygulamasına sahiptir. Projemiz, lojistik firmalarının karmaşık süreçlerini basitleştirir ve verimli bir şekilde yönetmelerini sağlar. Kolay Yol'un tanıtım websitesi, projenin sunduğu çeşitli özellikleri ve avantajları ziyaretçilere detaylı bir şekilde sunar.",
     "cactus": "Cactus Yazılım ve Bilişim Hizmetleri",
     "cactusInfo": "Cactus, yazılım ve bilişim hizmetleri sunan bir firma olarak, sektörde fark yaratmayı hedefler. Eski çalışanı olarak, bu şirketin projelerine katkıda bulundum ve yukarıda bahsedilen projelerin geliştirilmesinde rol aldım. Cactus'un websitesi, firma hakkında daha fazla bilgi almak isteyen ziyaretçilere şirketin vizyonunu ve misyonunu anlatır.",
-    "tech": "Teknoloji"
+    "tech": "Teknoloji",
+    "parlakids1": "ParlaKids'te Sosyal Medya Yöneticisi olarak görev aldım ve markanın çevrimiçi varlığını güçlendirmede önemli bir rol oynadım. Sorumluluklarım, Instagram ve şirket web sitesinde reklam stratejileri oluşturmak ve uygulamak içeriyordu. Etkileşimli içerik oluşturma ve reklam kampanyalarını yönetme konusunda uzmanlaştım, marka görünürlüğünü maksimuma çıkarmak için. Ek olarak, SEO çalışmalarına aktif katkı sağladım ve çevrimiçi içeriği optimize etmek amacıyla arama motoru sıralamalarını iyileştirdim. Analitik verileri yakından takip ederek, çevrimiçi pazarlama girişimlerimizin etkinliğini artırmak için veri odaklı kararlar aldım.\n Ana Başarılar: \n- Instagram ve şirket web sitesinde etkileyici reklam kampanyalarını başarıyla yönetme.\n - Arama motoru sıralamalarını iyileştiren SEO stratejilerini uygulama.\n - ParlaKids markasının sosyal medya platformlarındaki genel büyümesine ve görünürlüğüne katkıda bulunma.",
+    "cactus1": "Cactus Yazılım ve Bilişim Hizmetleri firmasında Front-End Developer olarak görev aldım.\n React ve Redux kullanarak modüler ve ölçeklenebilir ön yüzler geliştirdim.\n Restful API entegrasyonları gerçekleştirdim ve TypeScript, JavaScript, HTML, CSS gibi teknolojilerle etkin bir şekilde çalıştım.",
+    "carrier": "Kariyerim",
+    "socialmedia": "Sosyal Medya Yöneticisi",
+    "frontend": "Ön Uç Geliştiricisi",
+    "izmir": "Türkiye/İzmir",
+    "duzce": "Türkiye/Düzce"
 }

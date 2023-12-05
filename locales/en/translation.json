@@ -2,6 +2,7 @@
     "name": "Ahmet Emir Akyuz",
     "home": "Home",
     "projects": "Projects",
+    "about": "About",
     "contact": "Contact",
     "hi": "Hi.",
     "me": "I'm Ahmet Emir,",
@@ -11,5 +12,12 @@
     "kolayyolInfo": "Leading the way in Turkey's logistics sector, Kolay Yol has an advanced logistics management application. Our project simplifies and efficiently manages the complex processes of logistics companies. The promotional website for Kolay Yol presents various features and advantages of the project in detail to visitors.",
     "cactus": "Cactus Software and Information Services",
     "cactusInfo": "As a software and information services provider, Cactus aims to make a difference in the industry. As a former employee, I contributed to the projects of this company and was involved in the development of the projects mentioned above. The website of Cactus provides information about the company's vision and mission for visitors seeking more information.",
-    "tech": "Technology"
+    "tech": "Technology",
+    "parlakids1": "As a Social Media Manager at ParlaKids, I played a key role in enhancing the brand's online presence. My responsibilities included crafting and executing advertising strategies on Instagram and the company website. I specialized in creating engaging content and overseeing ad campaigns to maximize brand visibility. Additionally, I actively contributed to SEO efforts, optimizing online content to improve search engine rankings. By closely monitoring analytics, I implemented data-driven decisions to further enhance the effectiveness of our online marketing initiatives.\n Key Achievements:\n - Successfully managed and executed impactful advertising campaigns on Instagram and the company website.\n - Implemented SEO strategies that led to improved search engine rankings.\n - Contributed to the overall growth and visibility of the ParlaKids brand on social media platforms.",
+    "cactus1": "As a Front-End Developer at Cactus Software and Information Services, I developed modular and scalable front-end interfaces using React and Redux.\n I implemented Restful API integrations and effectively worked with technologies such as TypeScript, JavaScript, HTML, and CSS.",
+    "carrier": "My Carrier",
+    "socialmedia":"Social Media Manager",
+    "frontend": "Front End Developer",
+    "izmir": "Turkey/Izmir",
+    "duzce": "Turkey/Duzce"
 }

@@ -19,7 +19,7 @@ export default function Index() {
             imageSrc: "https://images04.nicepage.com/feature/511177/create-any-website-with-powerful-website-builder-website-builder.jpg",
             title: "Intermarkt Panel",
             description: t('intermarktInfo2'),
-            link: "https://intermarkt.com/",
+            link: "null",
             tech: "TypeScript - JavaScript - React Redux"
         },
         {

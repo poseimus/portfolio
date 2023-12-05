@@ -1,4 +1,3 @@
-// components/SingleFeature.tsx
 import { Feature } from '@/data/featureData';
 import React from 'react';
 

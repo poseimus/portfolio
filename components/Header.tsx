@@ -24,15 +24,16 @@ const Header = () => {
     const { t, i18n } = useTranslation();
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     return <>
-        <section className="text-black bg-white dark:text-white dark:bg-black sm:border-1">
+        <section className="text-black font-semibold text-lg bg-white dark:text-white dark:bg-black sm:border-1">
             <div className="container mx-auto flex flex-row gap-3 py-3 items-center justify-between">
                 <Link href={'/'}>
-                  {t('name')}
+                    {t('name')}
                 </Link>
                 <div className="flex flex-row items-center gap-3">
                     <div id="lg-header" className="flex flex-row gap-5 items-center justify-between">
                         <Link href={'/'}>{t('home')}</Link>
                         <Link href={'/projects'}>{t('projects')}</Link>
+                        <Link href={'/about'}>{t('about')}</Link>
                         <Link href={'/contact'}>{t('contact')}</Link>
                         <LanguageDropdown />
                     </div>
@@ -54,9 +55,10 @@ const Header = () => {
             </div>
         </section>
         {isMenuOpen && (
-            <div className="lg:hidden md:hidden text-black bg-white dark:text-white dark:bg-black gap-3  flex flex-col absolute z-10 w-full p-4">
+            <div className="lg:hidden border-t md:hidden font-semibold text-black bg-white dark:text-white dark:bg-black gap-3  flex flex-col absolute z-10 w-full p-4">
                 <Link href={'/'}>{t('home')}</Link>
                 <Link href={'/projects'}>{t('projects')}</Link>
+                <Link href={'/about'}>{t('about')}</Link>
                 <Link href={'/contact'}>{t('contact')}</Link>
                 <LanguageDropdown width={"w-fit"} />
             </div>
