@@ -23,7 +23,7 @@ export default function Social() {
   ];
 
   return (
-    <div className="absolute md:fixed top-32 sm:top-1/2 right-5 transform -translate-y-1/2 flex flex-row sm:flex-col gap-4 sm:gap-5 border border-black dark:border-white py-2 px-1.5">
+    <div className="absolute md:fixed top-32 sm:top-1/2 right-5 transform -translate-y-1/2 flex flex-row sm:flex-col gap-2 sm:gap-5 border border-black dark:border-white py-2 px-1">
       {socialData.map((social, index) => (
         <Link key={index} href={social.link} target="_blank">
           {social.icon}
