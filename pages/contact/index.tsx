@@ -26,8 +26,8 @@ export default function Index() {
                 <div className="flex flex-row gap-1 sm:gap-3 items-center ">
                     <TbBrandWhatsapp size={24}/>
                     <span>Whatsapp : </span>
-                    <Link href={'https://wa.me/905079677044'}>
-                        Click here to send me message now!
+                    <Link className="underline" href={'https://wa.me/905079677044'}>
+                        Text me
                     </Link>
                 </div>
             </div>
