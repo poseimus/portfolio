@@ -27,6 +27,7 @@ export default function Social() {
       {socialData.map((social, index) => (
         <Link key={index} href={social.link} target="_blank">
           {social.icon}
+          <span className="sr-only">{social.link} link</span>
         </Link>
       ))}
     </div>

@@ -5,13 +5,27 @@
 @font-face {
     font-family: 'Poppins';
     src: url('../public/font/Poppins-Light.ttf');
-    font-weight: normal;
+    font-weight: lighter;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Poppins";
     src: url('../public/font/Poppins-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url('../public/font/Poppins-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url('../public/font/Poppins-SemiBold.ttf');
     font-weight: 500;
     font-style: normal;
 }

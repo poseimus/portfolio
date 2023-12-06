@@ -29,7 +29,11 @@ export default function Index() {
                         Text me
                     </Link>
                 </div>
+                <div className="text-lg">
+                    {t('duzce')}
+                </div>
             </div>
+
         </section>
     </>
 }
