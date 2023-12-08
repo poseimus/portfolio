@@ -7,20 +7,18 @@ import Social from '@/components/Social'
 import 'owl.carousel/dist/assets/owl.carousel.css'
 import 'owl.carousel/dist/assets/owl.theme.default.css'
 import { Analytics } from '@vercel/analytics/react'
+import MySection from '@/components/MySection'
 
 export default function App({ Component, pageProps }: AppProps) {
   return <>
     <React.StrictMode>
       <Suspense fallback={<div>Loading...</div>}>
-        <section className="min-h-screen bg-neutral-300 dark:bg-[#343541] relative">
-          <div className='mx-auto text-black dark:text-white'>
-            <Header />
-            <Component {...pageProps} />
-            <Analytics />
-            <Social />
-          </div>
-          <div className="overlay-bg opacity-10 dark:opacity-20 absolute h-full w-full top-0"></div>
-        </section>
+        <MySection>
+          <Header />
+          <Component {...pageProps} />
+          <Analytics />
+          <Social />
+        </MySection>
       </Suspense>
     </React.StrictMode>
 
