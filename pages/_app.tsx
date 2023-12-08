@@ -6,6 +6,7 @@ import Header from '@/components/Header'
 import Social from '@/components/Social'
 import 'owl.carousel/dist/assets/owl.carousel.css'
 import 'owl.carousel/dist/assets/owl.theme.default.css'
+import { Analytics } from '@vercel/analytics/react'
 
 export default function App({ Component, pageProps }: AppProps) {
   return <>
@@ -15,6 +16,7 @@ export default function App({ Component, pageProps }: AppProps) {
           <div className='mx-auto text-black dark:text-white'>
             <Header />
             <Component {...pageProps} />
+            <Analytics />
             <Social />
           </div>
           <div className="overlay-bg opacity-10 dark:opacity-20 absolute h-full w-full top-0"></div>
