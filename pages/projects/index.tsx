@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import Cactus from './../../images/Cactus.png'
 import Kolayyol from './../../images/Kolayyol.png'
 import Intermarkt from './../../images/Intermarkt.png'
-import Tourforturkey from './../../images/Tourforturkey.png'
+import Locked from './../../images/Locked.png'
 export default function Index() {
 
     const { t } = useTranslation();
@@ -16,11 +16,12 @@ export default function Index() {
             tech: "TypeScript - JavaScript - React Redux"
         },
         {
-            imageSrc: "https://images04.nicepage.com/feature/511177/create-any-website-with-powerful-website-builder-website-builder.jpg",
+            imageSrc: Locked.src,
             title: "Intermarkt Panel",
             description: t('intermarktInfo2'),
             link: "null",
-            tech: "TypeScript - JavaScript - React Redux"
+            tech: "TypeScript - JavaScript - React Redux",
+            contain: true
         },
         {
             imageSrc: Kolayyol.src,
