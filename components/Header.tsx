@@ -4,6 +4,7 @@ import ThemeSwitch from "./ThemeSwitch";
 import LanguageDropdown from "./LanguageDropdown";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
+import { TbX } from "react-icons/tb";
 
 const Header = () => {
 
@@ -37,16 +38,16 @@ const Header = () => {
 
                 <div
                     id="mb-header"
-                    className="cursor-pointer items-center gap-3 lg:hidden"
+                    className={`cursor-pointer items-center gap-3 lg:hidden ${isMenuOpen ? 'change' : ''}`}
                     onClick={handleMenu}
                 >
-
                     <div className="flex flex-col">
-                        <div className="bar"></div>
-                        <div className="bar"></div>
-                        <div className="bar"></div>
+                        <div className="bar bg-black dark:bg-white"></div>
+                        <div className="bar bg-black dark:bg-white"></div>
+                        <div className="bar bg-black dark:bg-white"></div>
                     </div>
                 </div>
+
             </div>
         </section>
         {isMenuOpen && (
